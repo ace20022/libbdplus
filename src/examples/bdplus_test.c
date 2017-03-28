@@ -27,7 +27,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
+#include <headers_fixup.h>
 
 #ifdef HAVE_LIBAACS
 #include <libaacs/aacs.h>

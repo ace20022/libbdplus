@@ -35,6 +35,7 @@
 #include <sys/stat.h>
 
 #ifdef _WIN32
+# include <headers_fixup.h>
 # define mkdir(p,m) win32_mkdir(p)
 #endif
 

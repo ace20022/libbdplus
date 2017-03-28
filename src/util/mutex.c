@@ -27,6 +27,7 @@
 #include "macro.h"
 
 #if defined(_WIN32)
+#   include <headers_fixup.h>
 #   include <windows.h>
 #elif defined(HAVE_PTHREAD_H)
 #   include <pthread.h>
